@@ -1,0 +1,161 @@
+h1 {
+  text-align: center;
+}
+
+.button {
+  padding-top: 6px;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  color: green;
+  outline: none;
+  transition-duration: .4s;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 75px;
+  height: 35px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  border: 2px solid black;
+  height: 430px;
+  width: 430px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+div[data-answer]{
+  margin: 2px;
+}
+
+div[data-answer="0"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="1"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="2"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="3"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="4"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+  clear: left;
+}
+
+div[data-answer="5"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="6"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="7"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="8"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+  clear: left;
+}
+
+div[data-answer="9"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="10"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="11"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="12"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+  clear: left;
+}
+
+div[data-answer="13"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="14"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left; 
+}
+
+div[data-answer="15"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+
