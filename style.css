@@ -1,9 +1,17 @@
 h1 {
+  text-align: center; 
+  text-shadow: 1px 1px white; 
+}
+
+body {
+  background-image: url('http://vignette4.wikia.nocookie.net/metalgear/images/e/e8/3d.png/revision/latest?cb=20110305165251');
+  background-size: 100%;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 .button {
-  padding-top: 6px;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -25,131 +33,22 @@ button:hover {
 }
 
 .container {
+  background: rgba(0,0,0,.4);
   border: 2px solid black;
-  height: 430px;
-  width: 430px;
+  height: 420px;
+  width: 350px;
   text-align: center;
   box-sizing: border-box;
   margin: 0 auto;
 }
 
 div[data-answer]{
-  margin: 2px;
-}
-
-div[data-answer="0"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="1"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="2"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="3"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="4"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-  clear: left;
-}
-
-div[data-answer="5"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="6"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="7"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="8"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-  clear: left;
-}
-
-div[data-answer="9"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="10"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="11"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="12"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-  clear: left;
-}
-
-div[data-answer="13"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="14"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  float: left; 
-}
-
-div[data-answer="15"]{
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
+  opacity: 1;
+  box-sizing: border-box;
+  width: 25%;
+  height: 25%;
   float: left;
+  border: 2px solid black;
 }
 
 img {
@@ -158,4 +57,7 @@ img {
   position: relative;
 }
 
+audio {
+  padding-top: 6px;
+}
 
